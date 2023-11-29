@@ -4,5 +4,6 @@ channels:
   - https://repo.mamba.pm/conda-forge
 dependencies:
   - ipycanvas
+  - h5py=3.7.0
   - py4dstem=0.14.8
   - pymatgen
