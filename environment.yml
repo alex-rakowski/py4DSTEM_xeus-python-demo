@@ -1,9 +1,19 @@
 name: xeus-python-kernel
 channels:
-  - https://repo.mamba.pm/emscripten-forge
   - conda-forge
+  - conda-forge/label/jupyterlite_core_alpha
 dependencies:
-  - ipycanvas
-  - h5py=3.7.0
-  - py4dstem=0.14.8
-  - pymatgen
+  - python
+  - build
+  - pip
+  - jupyterlab >=4.0,<5
+  - jupyterlite-core >=0.2.0a1,<0.3.0
+  - traitlets
+  - requests
+  - typer
+  - pytest
+  - empack >=3,<4
+  - nodejs=20
+  - mamba
+  - black
+  - ruff
